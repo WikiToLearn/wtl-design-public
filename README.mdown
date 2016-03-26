@@ -1,0 +1,18 @@
+WTL - Design
+============
+
+General information
+-------------------
+
+This is a public repo, it is meant to be used by wikitolearn design and 
+promo teams as a way to share WTL branded material.
+
+In this spirit we suggest not to gitignore any material here, so that
+everything that has been created is quickly and easily shared, without 
+the need of re-exporting.
+
+Font
+----
+
+WTL logo uses DIN font, which is included in this repo.
+You need to install it to properly open the svg files.
