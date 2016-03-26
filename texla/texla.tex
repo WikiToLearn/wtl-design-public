@@ -1,0 +1,32 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+
+\makeatletter
+\newcommand{\TeXLa}{\kern -.15em\TeX 
+\kern -.1667em\lower .5ex\hbox {L}
+\kern -.7em{\sbox \z@ T\vbox to\ht \z@ {\hbox {\check@mathfonts \fontsize \sf@size \z@ \math@fontsfalse \selectfont A}\vss }} }
+\makeatother
+
+\makeatletter
+\newcommand{\TeXLaa}{\kern -.15em\TeX 
+	L
+	\kern -.70em{\sbox \z@ T\vbox to\ht \z@ {\hbox {\check@mathfonts \fontsize \sf@size \z@ \math@fontsfalse \selectfont A}\vss }} }
+\makeatother
+
+\makeatletter
+\newcommand{\TeXLaaa}{\kern -.15em\TeX 
+	\kern -.18em{\sbox \z@ T\vbox to\ht \z@ {\hbox {\check@mathfonts \fontsize \sf@size \z@ \math@fontsfalse \selectfont L}\vss }} 
+	\kern -.52em {A} }
+\makeatother
+
+\begin{document}
+
+\LaTeX \\
+\TeXLa \\
+\TeXLaa \\
+\TeXLaaa
+
+\end{document}
